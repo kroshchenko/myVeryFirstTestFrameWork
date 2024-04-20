@@ -1,17 +1,13 @@
-package retrofit.beans.response;
+package retrofitTest.beans.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
-
 @Getter
 @Setter
 @AllArgsConstructor
-public class CreateUserResponse {
+public class UserRequest {
     private String name;
     private String job;
-    private String id;
-    private Date createdAt;
 }

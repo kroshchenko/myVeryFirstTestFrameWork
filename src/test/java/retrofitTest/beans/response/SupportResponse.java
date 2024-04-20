@@ -1,4 +1,4 @@
-package retrofit.beans.response;
+package retrofitTest.beans.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

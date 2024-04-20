@@ -1,7 +1,7 @@
-package retrofit;
+package retrofitTest;
 
 import lombok.Getter;
-import retrofit.services.UserService;
+import retrofitTest.services.UserService;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 

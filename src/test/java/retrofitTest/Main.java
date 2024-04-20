@@ -1,6 +1,6 @@
-package retrofit;
+package retrofitTest;
 
-import retrofit.beans.response.UserListResponse;
+import retrofitTest.beans.response.UserListResponse;
 
 import java.io.IOException;
 

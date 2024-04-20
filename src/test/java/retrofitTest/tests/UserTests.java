@@ -1,12 +1,12 @@
-package retrofit.tests;
+package retrofitTest.tests;
 
-import retrofit.ApiServices;
-import retrofit.beans.request.UserRequest;
-import retrofit.beans.response.CreateUserResponse;
-import retrofit.beans.response.SingleUserResponse;
-import retrofit.beans.response.UpdateUserResponse;
-import retrofit.beans.response.UserListResponse;
-import retrofit.services.UserService;
+import retrofitTest.ApiServices;
+import retrofitTest.beans.request.UserRequest;
+import retrofitTest.beans.response.CreateUserResponse;
+import retrofitTest.beans.response.SingleUserResponse;
+import retrofitTest.beans.response.UpdateUserResponse;
+import retrofitTest.beans.response.UserListResponse;
+import retrofitTest.services.UserService;
 import org.junit.Test;
 import retrofit2.Response;
 

@@ -1,10 +1,10 @@
-package retrofit.services;
+package retrofitTest.services;
 
-import retrofit.beans.response.SingleUserResponse;
-import retrofit.beans.request.UserRequest;
-import retrofit.beans.response.CreateUserResponse;
-import retrofit.beans.response.UpdateUserResponse;
-import retrofit.beans.response.UserListResponse;
+import retrofitTest.beans.response.SingleUserResponse;
+import retrofitTest.beans.request.UserRequest;
+import retrofitTest.beans.response.CreateUserResponse;
+import retrofitTest.beans.response.UpdateUserResponse;
+import retrofitTest.beans.response.UserListResponse;
 import retrofit2.Call;
 import retrofit2.http.*;
 
