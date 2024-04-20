@@ -1,10 +1,10 @@
-package kroshchenko.services;
+package retrofit.services;
 
-import kroshchenko.beans.response.SingleUserResponse;
-import kroshchenko.beans.request.UserRequest;
-import kroshchenko.beans.response.CreateUserResponse;
-import kroshchenko.beans.response.UpdateUserResponse;
-import kroshchenko.beans.response.UserListResponse;
+import retrofit.beans.response.SingleUserResponse;
+import retrofit.beans.request.UserRequest;
+import retrofit.beans.response.CreateUserResponse;
+import retrofit.beans.response.UpdateUserResponse;
+import retrofit.beans.response.UserListResponse;
 import retrofit2.Call;
 import retrofit2.http.*;
 

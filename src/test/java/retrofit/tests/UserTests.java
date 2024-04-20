@@ -1,12 +1,12 @@
-package kroshchenko.tests;
+package retrofit.tests;
 
-import kroshchenko.ApiServices;
-import kroshchenko.beans.request.UserRequest;
-import kroshchenko.beans.response.CreateUserResponse;
-import kroshchenko.beans.response.SingleUserResponse;
-import kroshchenko.beans.response.UpdateUserResponse;
-import kroshchenko.beans.response.UserListResponse;
-import kroshchenko.services.UserService;
+import retrofit.ApiServices;
+import retrofit.beans.request.UserRequest;
+import retrofit.beans.response.CreateUserResponse;
+import retrofit.beans.response.SingleUserResponse;
+import retrofit.beans.response.UpdateUserResponse;
+import retrofit.beans.response.UserListResponse;
+import retrofit.services.UserService;
 import org.junit.Test;
 import retrofit2.Response;
 

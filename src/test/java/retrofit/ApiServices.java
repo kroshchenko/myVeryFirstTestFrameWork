@@ -1,7 +1,7 @@
-package kroshchenko;
+package retrofit;
 
 import lombok.Getter;
-import kroshchenko.services.UserService;
+import retrofit.services.UserService;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 

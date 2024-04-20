@@ -1,4 +1,4 @@
-package kroshchenko.beans.request;
+package retrofit.beans.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

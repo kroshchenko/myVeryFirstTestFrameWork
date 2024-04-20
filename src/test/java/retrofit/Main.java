@@ -1,6 +1,6 @@
-package kroshchenko;
+package retrofit;
 
-import kroshchenko.beans.response.UserListResponse;
+import retrofit.beans.response.UserListResponse;
 
 import java.io.IOException;
 
