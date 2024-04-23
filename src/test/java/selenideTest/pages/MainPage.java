@@ -6,9 +6,9 @@ import org.openqa.selenium.Keys;
 
 import static com.codeborne.selenide.Selenide.$;
 
-/*
+/**
  * Главная страница appleInsider.ru
- */
+ **/
 
 public class MainPage {
 
@@ -23,10 +23,11 @@ public class MainPage {
         searchButton.click();
     }
 
-    public void search(String text) {
+    public SearchPage search(String text) {
         clickSearchButton();
         searchInput.sendKeys(text);
         searchInput.sendKeys(Keys.ENTER);
+        return new SearchPage();
     }
 
     public SearchPage searchSmart(String text) {
