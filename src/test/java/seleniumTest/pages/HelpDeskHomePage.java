@@ -1,8 +1,11 @@
 package seleniumTest.pages;
 
+import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import propertiesTest.ConfigProvider;
 
 public class HelpDeskHomePage extends BaseSeleniumPage {
@@ -44,7 +47,10 @@ public class HelpDeskHomePage extends BaseSeleniumPage {
     @FindBy(id = "userDropdown")
     private WebElement userLoginButton;
 
+    @Step("Создать тикет {title} с почтой {email}")
     public HelpDeskHomePage createIssue(String title, String description, String email) {
+
+        waitUntil(5L, ExpectedConditions.elementToBeClickable(queueSelect));
         queueSelect.click();
         queueListValue1.click();
 
@@ -64,6 +70,7 @@ public class HelpDeskHomePage extends BaseSeleniumPage {
         return this;
     }
 
+    @Step("Перейти на страницу авторизации")
     public LoginPage openLoginPage() {
         userLoginButton.click();
         return new LoginPage();

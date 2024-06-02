@@ -1,5 +1,6 @@
 package seleniumTest.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,6 +18,7 @@ public class TicketsPage extends BaseSeleniumPage {
         PageFactory.initElements(driver, this);
     }
 
+    @Step("Поиск тикета по названию {text}")
     public SingleTicketPage search(String text) {
         searchInput.sendKeys(text, Keys.ENTER);
         ticketName.click();

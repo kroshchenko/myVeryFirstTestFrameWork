@@ -1,5 +1,6 @@
 package seleniumTest.pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +17,7 @@ public class LoginPage extends BaseSeleniumPage {
     @FindBy(xpath = "//input[@type='submit']")
     private WebElement loginButton;
 
+    @Step("Войти под юзером - {login} пароль - {password}")
     public TicketsPage login(String login, String password) {
         this.login.sendKeys(login);
         this.password.sendKeys(password, Keys.ENTER);

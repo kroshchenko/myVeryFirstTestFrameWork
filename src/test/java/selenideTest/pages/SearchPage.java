@@ -9,7 +9,7 @@ public class SearchPage {
 
     public String getFirstArticleHref() {
         return articleTitles.first()
-                .$("a")
+                .find("a")
                 .getAttribute("href");
     }
 }
