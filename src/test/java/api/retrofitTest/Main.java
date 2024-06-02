@@ -1,6 +1,6 @@
 package api.retrofitTest;
 
-import api.retrofitTest.beans.response.UserListResponse;
+import api.beans.response.UserListResponse;
 
 import java.io.IOException;
 

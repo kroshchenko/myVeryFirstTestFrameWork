@@ -1,4 +1,4 @@
-package api.retrofitTest.beans.response;
+package api.beans.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
