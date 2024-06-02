@@ -1,7 +1,7 @@
 package propertiesTest;
 
 import org.junit.Test;
-import selenideTest.BaseSelenideTest;
+import ui.selenideTest.BaseSelenideTest;
 
 import java.io.IOException;
 
