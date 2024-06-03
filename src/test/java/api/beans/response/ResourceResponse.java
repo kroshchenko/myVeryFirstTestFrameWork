@@ -5,14 +5,15 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Date;
-
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UpdateUserResponse {
+public class ResourceResponse {
+    private Integer id;
     private String name;
-    private String job;
-    private String updatedAt;
+    private Integer year;
+    private String color;
+    private String pantone_value;
+
 }

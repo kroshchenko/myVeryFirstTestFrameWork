@@ -39,7 +39,7 @@ public class UserTests {
         assertTrue(response.isSuccessful());
 
         SingleUserResponse singleUserResponse = response.body();
-        assertEquals("Проверка userId", userId, singleUserResponse.getData().getId());
+        assertEquals("Проверка userId", userId, singleUserResponse.getData().getId().intValue());
     }
 
     @Test

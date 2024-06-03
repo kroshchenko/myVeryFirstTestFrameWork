@@ -7,16 +7,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
-public class TokenResponse {
-
+@AllArgsConstructor
+public class RegisterResponse {
+    private Integer id;
     private String token;
-
-    @Override
-    public String toString() {
-        return "TokenPOJO{" +
-                "token='" + token + '\'' +
-                '}';
-    }
 }
